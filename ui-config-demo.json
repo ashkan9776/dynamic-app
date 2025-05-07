@@ -1,0 +1,29 @@
+{
+  "components": [
+    {
+      "type": "appbar",
+      "props": {
+        "title": "خانه",
+        "backgroundColor": "#4CAF50",
+        "color": "white"
+      }
+    },
+    {
+      "type": "text",
+      "props": {
+        "content": "خوش اومدی!",
+        "style": {
+          "fontSize": 22,
+          "color": "black"
+        }
+      }
+    },
+    {
+      "type": "button",
+      "props": {
+        "title": "برو به لاگین",
+        "navigateTo": "Login"
+      }
+    }
+  ]
+}
